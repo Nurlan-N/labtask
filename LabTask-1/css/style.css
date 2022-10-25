@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.header_topbar{
+    background-color: #414b4f;
+    padding: 0.8rem 0;
+}
+.row{
+    display: flex;
+    justify-content:space-between;
+    color: #ccc;
+}
+.textwidget{
+    display: flex;
+}
+
+.top_bar_info li{
+    display: inline;
+}
+.hidden_info{
+    margin-left: 20px;
+}
+.login{
+    margin: 0 10px;
+}
+.login i{
+    font-size: 13px;
+}
+.textwidget span{
+    cursor: pointer;
+}
+.navigation_menu{
+    background-image: url(https://travelwp.physcode.com/wp-content/uploads/2017/01/video_slider.jpg);
+    background-position: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.navigation li{
+    display: inline;
+    margin-left: 10px;
+}
+.navigation_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+    
+}
+.navigation{
+    margin-left: auto;
+    padding-right: 2rem;
+}
+.navigation li{
+    margin-right: 20px;
+}
+.navigation a{
+    color: #ffff;
+    font-weight: bold;
+
+}
+.search{
+    border: 3px solid #ffb300;
+    color: #ffff;
+    width: 40px;
+    height: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+.search i{
+    padding-top: 5px;
+}
+.txt{
+    margin-top: 12rem;
+}
+.txt h3{
+    font-size: 30px;
+    color: #ffff;
+}
+.txt h2{
+    font-size: 50px;
+    color: #ffff;
+    margin-top: 1rem;
+}
+.button{
+    margin-top: 2rem;
+}
+.button a{
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    background-color: #ffb300;
+    padding: 1rem 2rem;
+}
+.button a:hover{
+    background-color: #ffff;
+    color: #ffb300;
+}
+.column{
+    width: 100%;
+    margin-top: 14rem;
+    display: flex;
+    background-color: #414b4f79;
+    padding: 1.5rem 0;
+}
+.column input,select,button{
+    width: 19%;
+    height: 40px;
+    border: none;
+    margin: 0 5px;
+
+}
+.column button{
+    background-color: #ffb300;
+    color: #333;
+    padding: auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+.column button:hover{
+    color: #ffff;
+}
+.page2{
+    margin-top: 5rem;
+    text-align: center;
+}
+.page2 h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+.page2 hr{
+    width: 5%;
+    margin: 15px auto;
+    border: 2px solid #ffb300;
+}
+.boxs{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 23%;
+    text-align: center;
+    cursor: pointer;
+}
+.box:hover{
+    
+}
+.box i{
+    background-color: #26bdf7;
+    border: 2px solid #26bdf7;
+    border-radius: 50%;
+    padding: 2.5rem;
+    font-size: 40px;
+    color: #ffff;
+}
